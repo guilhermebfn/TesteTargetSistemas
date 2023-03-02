@@ -1,4 +1,4 @@
-def pertenceFibonacci(numero):
+def pertence_fibonacci(numero):
     # Variáveis com os valores iniciais da sequência
     a = 0
     b = 1
@@ -15,7 +15,7 @@ def pertenceFibonacci(numero):
 def main():
     numero = int(input("Digite um número inteiro: "))
 
-    if pertenceFibonacci(numero):
+    if pertence_fibonacci(numero):
         print(f"O número {numero} pertence à sequência de Fibonacci")
     else:
         print(f"O número {numero} não pertence à sequência de Fibonacci")
